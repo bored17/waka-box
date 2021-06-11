@@ -17,6 +17,6 @@ jobs:
       - name: Update gist
         run: node ./index.js  --unhandled-rejections=strict
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 7854aac61f991ef4e7ae7b8440e4fdc6
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ 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 }}
+          GIST_ID: d0c9701d8ad09d8f1f2297fe53d421b5
+          WAKATIME_API_KEY: ${{ b36933dd-a2ed-49b3-bd6c-7d2c47711d3d }}
